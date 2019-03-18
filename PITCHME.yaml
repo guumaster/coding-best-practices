@@ -5,5 +5,6 @@ code-line-numbers : true
 logo : assets/img/igz_logo.png
 logo-position : top-right
 eager-loading : true
+remote-control : true
 
 footnote : "@guumaster - Intelygenz Software"
