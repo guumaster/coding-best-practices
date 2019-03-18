@@ -1,5 +1,9 @@
+title : "Good Coding Practices"
 theme: moon
 highlight : Dracula
 code-line-numbers : true
 logo : assets/img/igz_logo.png
 logo-position : top-right
+eager-loading : true
+
+footnote : "@guumaster - Intelygenz Software"
