@@ -1,0 +1,5 @@
+theme: moon
+highlight : Dracula
+code-line-numbers : true
+logo : assets/img/igz_logo.png
+logo-position : top-right
