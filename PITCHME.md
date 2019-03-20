@@ -14,6 +14,9 @@
 
 
 +++?code=code/readability_bad.js&lang=javascript&title=Readability Bad
+@[1](Function name and parameters don't show meaning or intention)
+@[2](Var name not meaningful)
+@[4-6]("Magic value" lost in middle of code, not reusable)
 
 +++?code=code/readability_good.js&lang=javascript&title=Readability Good
 
