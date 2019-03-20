@@ -10,7 +10,7 @@
 ### Readability
 1. Un-consistent naming scheme (code and files)
 2. Too deep nesting
-3.  Abusing the language (ex: nested ternary operators)
+3. Abusing the language (ex: nested ternary operators)
 4. Infinite line length
 5. Not meaningful names (or too short/long)
 6. No line separation
@@ -91,6 +91,8 @@
 3. Group concept together. Leave a blank line when you start a different thing.
 4. Keep lines short.
 
++++?code=code/consistency.js&language=javascript&title=Consistency
+
 +++
 ### Names rules
 1. Choose descriptive and unambiguous names.
@@ -142,12 +144,12 @@
 
 +++
 ### Versioning guidelines (cont.)
-6. Explain _what_  and  _why_  and not _how_.
+6. Explain _what_ and _why_ and not _how_.
 7. Rebase your branch before merging.
 8. Use feature branches.
 9. Separate your commits properly.
-10. Do a quick review of your code before pushing.  
-11. Avoid `git add .` all the time. You are the first reviewer.
+10. Avoid `git add .` all the time. You are the first reviewer.
+11. Do a quick review of your code **before** pushing.  
 
 +++?code=code/commit_messages.md&language=markdown&title=Commit messages
 @[1, 2](Past tense)
@@ -176,6 +178,7 @@
 - Read carefully. Take your time to understand what's changed.
 - Look for signs of bad code or code smells.
 - Look for inconsistencies that may have pass the linter.
+- Never merge your own PRs.
 
 +++
 ### Code Review (cont.)
