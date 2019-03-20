@@ -12,7 +12,8 @@
 5. Not meaningful names (or too short/long)
 6. No line separation
 +++
-
+---?gist=guumaster/35b31a743b903699ec36fa27dc4f91b2&lang=javascript#file-readability_bad-js
++++ 
 ### Comments
 1. Zero comments
 2. Too extensive (if you need to explain much, is sign of bad code)
