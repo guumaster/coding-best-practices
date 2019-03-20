@@ -77,12 +77,15 @@
 3. Write what the commit will do once applied. No past tense.
 4. Semantic messages.
 5. Reference your Issue tracker if you are using one.
+
++++
+### Versioning guidelines (cont.)
 6. Explain _what_  and  _why_  and not _how_.
 7. Rebase your branch before merging.
 8. Use feature branches.
 9. Separate your commits properly.
 10. Do a quick review of your code before pushing.  
-11. Check what are you adding to commit, don't do `git add .` all the time. 
+11. Avoid `git add .` all the time. You are the first reviewer.
 ---
 
 
@@ -106,6 +109,9 @@
 - Read carefully. Take your time to understand what's changed.
 - Look for signs of bad code or code smells.
 - Look for inconsistencies that may have pass the linter.
++++
+
+### Code Review (cont.)
 - Ask questions. Suggest changes.
 - Do in-person review if:
 	- Changes is too big or complex. 
@@ -117,8 +123,15 @@
 - Plan and discuss briefly before coding.
 - When driving always communicate what your are doing. 
 - When navigating be alert and pay attention.
++++
+
+### Pair Programming (cont.)
 - Disagreement is good, talk it through, find the best solution.
 - Don't do it for long period of time.
 - Exchange roles of driver/navigator.
 +++
 
+
+@snap[midpoint]
+# Thanks!
+@snapend
