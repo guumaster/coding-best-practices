@@ -172,8 +172,8 @@
 ### Code Review (cont.)
 - Ask questions. Suggest changes.
 - Do in-person review if:
-	- Changes is too big or complex. 
-	- There is a difference in experience or expertise. 
+  - Changes is too big or complex. 
+  - There is a difference in experience or expertise. 
 - Always be positive in your comments.
 +++
 
