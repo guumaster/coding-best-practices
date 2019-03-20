@@ -154,7 +154,7 @@
 +++
 ### Before writting a commit message think this
 
-> When applied, this commit will... <YOUR_COMMIT_MESSAGE_HERE>
+> When applied, this commit will... &lt;YOUR_COMMIT_MESSAGE_HERE&gt;
 
 
 +++?code=code/commit_messages.md&language=markdown&title=Commit messages
