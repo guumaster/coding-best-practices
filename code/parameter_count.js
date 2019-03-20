@@ -7,7 +7,6 @@ function createMenu(title, body, btnText, cancellable) {
 function createMenu({ title, body, btnText, cancellable }) {
   // ...
 }
-
 createMenu({
   title: "Foo",
   btnText: "Baz",
