@@ -1,5 +1,5 @@
 // Bad:
-function createFile(name, temp) {
+const createFile = (name, temp) => {
   if (temp) {
     fs.create(`./temp/${name}`)
   } else {
@@ -8,9 +8,6 @@ function createFile(name, temp) {
 }
 
 // Good: 
-function createFile(name) {
-  fs.create(name)
-}
-function createTempFile(name) {
-  createFile(`./temp/${name}`)
-}
+const createFile = (name) => fs.create(name)
+
+const createTempFile = (name) => createFile(`./temp/${name}`)
