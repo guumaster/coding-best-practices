@@ -115,7 +115,7 @@
 @[1-8](Two things)
 @[10-13](Refactor to smaller and simpler functions)
 
-+++?code=code/side_effect.js&lang=javascript&title=Side effect
++++?code=code/side_effects.js&lang=javascript&title=Side effect
 @[1-6](Modify external value inside function)
 @[8-14](Refactor to remove side effect)
 
@@ -145,7 +145,7 @@
 10. Do a quick review of your code before pushing.  
 11. Avoid `git add .` all the time. You are the first reviewer.
 
-+++?code=code/commit_messages.js&title=Commit messages
++++?code=code/commit_messages.md&language=markdown&title=Commit messages
 
 
 ---
