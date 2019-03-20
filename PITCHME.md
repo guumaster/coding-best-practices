@@ -30,8 +30,12 @@
 
 
 +++?code=code/comments_bad1.js&lang=javascript&title=Comments Bad
+@[1-2](Captain Obvious attack)
+@[4](Not needed, any IDE can mark this better)
+@[6-7](This info already is on GIT, not useful here)
+@[9-13](Funny, consider standup comedy instead of programming)
 
-+++?code=code/comments_bad1.js&lang=javascript&title=Comments Bad (cont)
++++?code=code/comments_bad2.js&lang=javascript&title=Comments Bad (cont)
 
 
 +++
