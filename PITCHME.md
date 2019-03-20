@@ -13,9 +13,9 @@
 6. No line separation
 
 
-+++?code=code/readability_bad.js&lang=javascript
++++?code=code/readability_bad.js&lang=javascript&title=Readability Bad
 
-+++?code=code/readability_good.js&lang=javascript
++++?code=code/readability_good.js&lang=javascript&title=Readability Good
 
 +++
 ### Comments
