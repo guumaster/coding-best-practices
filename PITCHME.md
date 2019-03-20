@@ -151,50 +151,49 @@
 @[1, 4](Issue reference dificult reading the message)
 @[6-9](Better messages)
 
-
 ---
 ## How to stay in the Good Track
-+++
 
++++
 ### Dev Tools
 - Quality and Style tools (Editorconfig, StandardJS, ESLint)
 - Good IDE (VSCode, WebStorm, JetBrain IDEs)
-+++
 
++++
 ### Automation
 - Pass the linter on every commit. Even before tests (GitlabCI)
 - Submit your code to an static analyzer (Codeclimate, SonarQube, etc)
 - Add semantic-release to your pipeline.
 - Generate automatic `CHANGELOG` file. 
-+++
 
++++
 ### Code Review
 - Only review after automatic check already past (linter, tests).
 - Read carefully. Take your time to understand what's changed.
 - Look for signs of bad code or code smells.
 - Look for inconsistencies that may have pass the linter.
-+++
 
++++
 ### Code Review (cont.)
 - Ask questions. Suggest changes.
 - Do in-person review if:
   - Changes is too big or complex. 
   - There is a difference in experience or expertise. 
 - Always be positive in your comments.
-+++
 
++++
 ### Pair Programming
 - Plan and discuss briefly before coding.
 - When driving always communicate what your are doing. 
 - When navigating be alert and pay attention.
-+++
 
++++
 ### Pair Programming (cont.)
 - Disagreement is good, talk it through, find the best solution.
 - Don't do it for long period of time.
 - Exchange roles of driver/navigator.
-+++
 
++++
 
 @snap[midpoint]
 # Thanks!
