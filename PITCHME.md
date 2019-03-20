@@ -4,7 +4,8 @@
 ## What is Bad Code?
 +++
 
-![Code Quality](assets/img/code_quality.png?position=midpoint&size=auto 50%)
+#### Measuring Code Quality
+![Code Quality](assets/img/code_quality.png)
 
 +++
 ### Readability
