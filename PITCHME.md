@@ -4,7 +4,7 @@
 ## What is Bad Code?
 +++
 
-+++?image=assets/img/code_quality.png&position=midpoint&size=auto 50% @title[Code Quality]
+![Code Quality](assets/img/code_quality.png?position=midpoint&size=auto 50%)
 
 +++
 ### Readability
