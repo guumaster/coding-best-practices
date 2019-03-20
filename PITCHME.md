@@ -36,7 +36,7 @@
 @[9-13](Funny, consider standup comedy instead of programming)
 
 +++?code=code/comments_bad2.js&lang=javascript&title=Comments Bad (cont)
-@[1-10](Developers wasting time 42 times?)
+@[1-10](Developers wasting 42 hours?)
 
 
 +++
@@ -45,8 +45,13 @@
 2. Duplicated code
 3. Too many parameters
 4. Dead code
----
 
++++?code=code/dead_code.js&lang=javascript&title=Dead Code
+@[3-6](Don't leave this commented out, remove it!)
+@[10](If your IDE shows you unused methods, remove them)
+
+
+---
 ## Creating Good Code
 +++
 
