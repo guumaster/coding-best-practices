@@ -1,16 +1,16 @@
 // Bad:
-function createMenu(title, body, buttonText, cancellable) {
+function createMenu(title, body, btnText, cancellable) {
   // ...
 }
 
 // Good:
-function createMenu({ title, body, buttonText, cancellable }) {
+function createMenu({ title, body, btnText, cancellable }) {
   // ...
 }
 
 createMenu({
   title: "Foo",
-  buttonText: "Baz",
+  btnText: "Baz",
   cancellable: true,
   body: "Bar"
 })
