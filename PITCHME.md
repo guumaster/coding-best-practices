@@ -5,7 +5,7 @@
 +++
 
 #### Code Quality
-![Code Quality](assets/img/code_quality.jpg)
+![Code Quality](assets/img/code_quality.jpg&size=auto 80%)
 
 +++
 
