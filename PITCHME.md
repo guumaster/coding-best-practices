@@ -36,7 +36,7 @@
 5. Mark ending of functions
 
 
-+++?code=code/comments_bad1.js&lang=javascript&title=Comments Bad
++++?code=code/comments_bad1.js&lang=javascript&highlight=shit&title=Comments Bad
 @[1-2](Captain Obvious attack)
 @[4](Not needed, any IDE can mark this better)
 @[6-7](This info already is on GIT, not useful here)
@@ -146,6 +146,10 @@
 11. Avoid `git add .` all the time. You are the first reviewer.
 
 +++?code=code/commit_messages.md&language=markdown&title=Commit messages
+@[1, 2](Past tense)
+@[1, 3](Ambiguos message)
+@[1, 4](Issue reference dificult reading the message)
+@[6-9](Better messages)
 
 
 ---
