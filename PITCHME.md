@@ -4,11 +4,9 @@
 ## What is Bad Code?
 +++
 
-#### Code Quality
-![Code Quality](assets/img/code_quality.jpg?size=auto 80%)
++++?image=assets/img/code_quality.png&position=midpoint&size=auto 50% @title[Code Quality]
 
 +++
-
 ### Readability
 1. Un-consistent naming scheme (code and files)
 2. Too deep nesting
