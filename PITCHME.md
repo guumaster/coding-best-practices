@@ -61,7 +61,7 @@
 +++?code=code/parameter_count.js&lang=javascript&title=Too many arguments
 @[1-4](too many positional arguments)
 @[6-9](destructuring from single argument)
-@[11-16](order of arguments doesn't matter on call)
+@[10-15](order of arguments doesn't matter on call)
 
 +++?code=code/dead_code.js&lang=javascript&title=Dead Code
 @[3-6](Don't leave this commented out, remove it!)
@@ -111,9 +111,9 @@
 5. Do something, return something.
 6. Have no side effects.
 
-+++?code=code/side_effect.js&lang=javascript&title=Small & do one thing
++++?code=code/one_thing.js&lang=javascript&title=Small & do one thing
 @[1-8](Two things)
-@[10-16](Refactor to smaller and simpler functions)
+@[10-13](Refactor to smaller and simpler functions)
 
 +++?code=code/side_effect.js&lang=javascript&title=Side effect
 @[1-6](Modify external value inside function)
