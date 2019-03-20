@@ -4,7 +4,6 @@
 ## What is Bad Code?
 +++
 
-#### Measuring Code Quality
 ![Code Quality](assets/img/code_quality.png)
 
 +++
@@ -95,8 +94,16 @@
 3. Use pronounceable names.
 4. Use searchable names.
 5. Replace magic numbers with named constants.
-+++
 
++++?code=code/name_rules1.js&lang=javascript&title=Name Rules
+@[1-2](Magic number and no clear intention)
+@[4-6](Searchable name and add meaning)
+
++++?code=code/name_rules2.js&lang=javascript&title=Name Rules (cont)
+@[1-2, 4-8](What are the params of saveCityZipCode?)
+@[1-2, 10-12](Simpler to read, clear parameters)
+
++++
 ### Functions rules
 1. Small.
 2. Do one thing.
