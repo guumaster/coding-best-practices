@@ -56,7 +56,7 @@
 
 +++?code=code/duplicate_code.js&lang=javascript&title=Duplicated code
 @[1-12](Two functions, same functionality)
-@[14-19](Simpler and not duplicated)
+@[14-19](Simpler, reusable and not duplicated)
 
 +++?code=code/parameter_count.js&lang=javascript&title=Too many arguments
 @[1-4](too many positional arguments)
@@ -81,9 +81,13 @@
 5. Don't sacrifice clarity for efficiency.
 
 +++
+# Eslint + StandardJS
+![Always use a code linter](assets/img/code-linter.png)
+
++++
 ### Readability tips
 1. Be consistent. If you do something a certain way, do all similar things in the same way.
-2. Use explanatory variables.
+2. Use self-explanatory variables.
 3. Group concept together. Leave a blank line when you start a different thing.
 4. Keep lines short.
 
