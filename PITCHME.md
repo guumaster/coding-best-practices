@@ -12,7 +12,9 @@
 5. Not meaningful names (or too short/long)
 6. No line separation
 
+
 +++?code=code/readability_bad.js&lang=javascript
+
 +++?code=code/readability_good.js&lang=javascript
 
 +++
