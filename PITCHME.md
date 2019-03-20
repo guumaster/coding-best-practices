@@ -20,6 +20,18 @@
 
 +++?code=code/readability_good.js&lang=javascript&title=Readability Good
 
+## Variable names
+
+### Bad:
+```
+const yyyymmdstr = moment().format("YYYY/MM/DD");
+```
+
+### Good:
+```
+const currentDate = moment().format("YYYY/MM/DD");
+```
+
 +++
 ### Comments
 1. Zero comments
