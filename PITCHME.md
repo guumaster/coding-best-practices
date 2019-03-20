@@ -152,7 +152,7 @@
 11. Do a quick review of your code **before** pushing.  
 
 +++
-## Before writting a commit message think this
+### Before writting a commit message think this
 
 > When applied, this commit will... <YOUR_COMMIT_MESSAGE_HERE>
 
