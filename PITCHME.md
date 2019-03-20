@@ -4,6 +4,11 @@
 ## What is Bad Code?
 +++
 
+#### Code Quality
+![Code Quality](assets/img/code_quality.jpg)
+
++++
+
 ### Readability
 1. Un-consistent naming scheme (code and files)
 2. Too deep nesting
@@ -69,6 +74,7 @@
 ---
 ## Creating Good Code
 +++
+
 
 ### General rules
 1. Follow language standard conventions
