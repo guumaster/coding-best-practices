@@ -38,6 +38,7 @@
 @[4](Not needed, any IDE can mark this better)
 @[6-7](This info already is on GIT, not useful here)
 @[9-13](Funny, consider standup comedy instead of programming)
+@[15](Use propper language)
 
 +++?code=code/comments_bad2.js&lang=javascript&title=Comments Bad (cont)
 @[1-10](Developers wasting 42 hours?)
