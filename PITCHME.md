@@ -12,7 +12,8 @@
 5. Not meaningful names (or too short/long)
 6. No line separation
 +++
----?gist=guumaster/35b31a743b903699ec36fa27dc4f91b2&lang=javascript#file-readability_bad-js
+---?code=code/readability_bad.js&lang=javascript
+---?code=code/readability_good.js&lang=javascript
 +++ 
 ### Comments
 1. Zero comments
