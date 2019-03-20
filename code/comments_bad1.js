@@ -9,6 +9,7 @@ function getCount() {
 // Magic. Do not touch.
 // drunk, fix later
 
-// When I wrote this, only God and I understood what I was doing
-// Now, God only knows
+// When I wrote this, only God and I understood 
+// what I was doing. Now, God only knows
 
+// This shit is saved, but not used
