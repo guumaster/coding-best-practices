@@ -3,7 +3,7 @@ function getCount() {
 // ... long function body
 } // end getCount
 
-// somedev1 -  6/7/02 Adding temporary tracking of Login screen
+// somedev1 -  6/7/02 Adding temporary tracking here
 // somedev2 -  5/22/07 Temporary my ass
 
 // Magic. Do not touch.
