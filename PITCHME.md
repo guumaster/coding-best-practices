@@ -70,24 +70,24 @@
 
 ---
 ## Creating Good Code
+
+
 +++
-
-
 ### General rules
 1. Follow language standard conventions
 2. Choose a set of rules and guidelines and stick to them
 3. Keep it simple. Simpler is always better. Reduce complexity as much as possible
 4. Boy scout rule. Leave the campground cleaner than you found it.
 5. Don't sacrifice clarity for efficiency.
-+++
 
++++
 ### Readability tips
 1. Be consistent. If you do something a certain way, do all similar things in the same way.
 2. Use explanatory variables.
 3. Group concept together. Leave a blank line when you start a different thing.
 4. Keep lines short.
-+++
 
++++
 ### Names rules
 1. Choose descriptive and unambiguous names.
 3. Use pronounceable names.
@@ -127,8 +127,8 @@
 5. Use as clarification of code.
 6. Use as explanation for weird cases.
 7. Use to explain why the code is doing something, and not what is doing.
-+++
 
++++
 ### Versioning guidelines
 1. Short and meaningful commit messages.
 2. Keep your commits polite and clean.
@@ -144,9 +144,11 @@
 9. Separate your commits properly.
 10. Do a quick review of your code before pushing.  
 11. Avoid `git add .` all the time. You are the first reviewer.
+
++++?code=code/commit_messages.js&title=Commit messages
+
+
 ---
-
-
 ## How to stay in the Good Track
 +++
 
