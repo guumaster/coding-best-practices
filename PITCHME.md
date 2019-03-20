@@ -63,7 +63,6 @@
 @[6-9](destructuring from single argument)
 @[11-16](order of arguments doesn't matter on call)
 
-
 +++?code=code/dead_code.js&lang=javascript&title=Dead Code
 @[3-6](Don't leave this commented out, remove it!)
 @[10](If your IDE shows you unused methods, remove them)
@@ -111,8 +110,16 @@
 4. Prefer fewer arguments. Avoid four arguments or have a good justification for it.
 5. Do something, return something.
 6. Have no side effects.
-+++
 
++++?code=code/side_effect.js&lang=javascript&title=Small & do one thing
+@[1-8](Two things)
+@[10-16](Refactor to smaller and simpler functions)
+
++++?code=code/side_effect.js&lang=javascript&title=Side effect
+@[1-6](Modify external value inside function)
+@[8-14](Refactor to remove side effect)
+
++++
 ### Comments rules
 1. Least as possible. Always try to explain yourself in code.
 2. Don't be redundant or add obvious noise.
