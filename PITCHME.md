@@ -27,8 +27,14 @@
 3. Captain Obvious
 4. Calendar reminder or blaming comments
 5. Mark ending of functions
-+++
 
+
++++?code=code/comments_bad1.js&lang=javascript&title=Comments Bad
+
++++?code=code/comments_bad1.js&lang=javascript&title=Comments Bad (cont)
+
+
++++
 ### Code smells
 1. God class/method
 2. Duplicated code
