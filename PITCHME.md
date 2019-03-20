@@ -20,18 +20,9 @@
 
 +++?code=code/readability_good.js&lang=javascript&title=Readability Good
 
-+++ 
-## Variable names
-
-### Bad:
-```
-const yyyymmdstr = moment().format("YYYY/MM/DD");
-```
-
-### Good:
-```
-const currentDate = moment().format("YYYY/MM/DD");
-```
++++?code=code/variable_naming.js&lang=javascript&title=Variable names
+@[1-2](Why?)
+@[4-5](Clear meaning)
 
 +++
 ### Comments
@@ -58,6 +49,16 @@ const currentDate = moment().format("YYYY/MM/DD");
 2. Duplicated code
 3. Too many parameters
 4. Dead code
+
++++?code=code/duplicate_code.js&lang=javascript&title=Duplicated code
+@[1-12](Two functions, same functionality)
+@[14-19](Simpler and not duplicated)
+
++++?code=code/parameter_count.js&lang=javascript&title=Too many arguments
+@[1-4](too many positional arguments)
+@[6-9](destructuring from single argument)
+@[11-16](order of arguments doesn't matter on call)
+
 
 +++?code=code/dead_code.js&lang=javascript&title=Dead Code
 @[3-6](Don't leave this commented out, remove it!)
