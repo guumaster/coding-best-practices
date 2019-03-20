@@ -151,6 +151,12 @@
 10. Avoid `git add .` all the time. You are the first reviewer.
 11. Do a quick review of your code **before** pushing.  
 
++++
+## Before writting a commit message think this
+
+> When applied, this commit will... <YOUR_COMMIT_MESSAGE_HERE>
+
+
 +++?code=code/commit_messages.md&language=markdown&title=Commit messages
 @[1, 2](Past tense)
 @[1, 3](Ambiguos message)
