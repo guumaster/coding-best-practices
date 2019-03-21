@@ -11,5 +11,5 @@ function do_stuff() {
     return false
   }
   
-  // ... 
+  // FUNCTION BODY HERE 
 }
