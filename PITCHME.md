@@ -80,9 +80,9 @@
 ## GENERAL RULES
 +++
 ### General rules
-1. Follow language standard conventions
-2. Choose a set of rules and guidelines and stick to them
-3. Keep it simple. Simpler is always better. Reduce complexity as much as possible
+1. Follow language standard conventions.
+2. Choose a set of rules and guidelines and stick to them.
+3. Keep it simple. Simpler is always better. Reduce complexity as much as possible.
 4. Boy scout rule. Leave the campground cleaner than you found it.
 5. Don't sacrifice clarity for efficiency.
 
@@ -193,8 +193,8 @@
 
 +++
 ### Automation
-- Pass the linter on every commit. Even before tests (GitlabCI)
-- Submit your code to an static analyzer (Codeclimate, SonarQube, etc)
+- Pass the linter on every commit. Even before tests (GitlabCI).
+- Submit your code to an static analyzer (Codeclimate, SonarQube, etc).
 - Add semantic-release to your pipeline.
 - Generate automatic `CHANGELOG` file. 
 
