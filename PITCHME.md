@@ -7,8 +7,10 @@
 ![Code Quality](assets/img/code_quality.png)
 
 +++
+## READABILITY
++++
 ### Readability
-1. Un-consistent naming scheme (code and files)
+1. Inconsistent naming scheme (code and files)
 2. Too deep nesting
 3. Abusing the language (ex: nested ternary operators)
 4. Infinite line length
@@ -28,6 +30,8 @@
 @[4-5](Clear meaning, pronounceble, searchable)
 
 +++
+## COMMENTS
++++
 ### Comments
 1. Zero comments
 2. Too extensive (if you need to explain much, is sign of bad code)
@@ -46,7 +50,8 @@
 +++?code=code/comments_bad2.js&lang=javascript&title=Comments Bad (cont)
 @[1-10](Developers wasting 42 hours?)
 
-
++++
+## CODE SMELLS
 +++
 ### Code smells
 1. God class/method
@@ -71,7 +76,8 @@
 ---
 ## Creating Good Code
 
-
++++
+## GENERAL RULES
 +++
 ### General rules
 1. Follow language standard conventions
@@ -81,9 +87,7 @@
 5. Don't sacrifice clarity for efficiency.
 
 +++
-# Eslint + StandardJS
-![Always use a code linter](assets/img/code-linter.png)
-
+## READABILITY
 +++
 ### Readability tips
 1. Be consistent. If you do something a certain way, do all similar things in the same way.
@@ -93,6 +97,8 @@
 
 +++?code=code/consistency.js&language=javascript&title=Consistency
 
++++
+## NAMING
 +++
 ### Names rules
 1. Choose descriptive and unambiguous names.
@@ -108,6 +114,8 @@
 @[1-2, 4-8](What are the params of saveCityZipCode?)
 @[1-2, 10-12](Simpler to read, clear parameters)
 
++++
+## FUNCTIONS
 +++
 ### Functions rules
 1. Small.
@@ -126,6 +134,8 @@
 @[8-14](Refactor to remove side effect)
 
 +++
+## COMMENTS
++++
 ### Comments rules
 1. Least as possible. Always try to explain yourself in code.
 2. Don't be redundant or add obvious noise.
@@ -134,6 +144,8 @@
 6. Use as explanation for weird cases.
 7. Use to explain why the code is doing something, and not what is doing.
 
++++
+## Version Control
 +++
 ### Versioning guidelines
 1. Short and meaningful commit messages.
@@ -166,10 +178,18 @@
 ---
 ## How to stay in the Good Track
 
+
++++
+## DEV TOOLS
 +++
 ### Dev Tools
-- Quality and Style tools (Editorconfig, StandardJS, ESLint)
-- Good IDE (VSCode, WebStorm, JetBrain IDEs)
+- Quality and Style tools
+  - [Editorconfig](https://editorconfig.org/)
+  - [StandardJS](https://standardjs.com/)
+  - [ESLint](https://eslint.org)
+- Good IDE 
+  - [VSCode](https://code.visualstudio.com)
+  - [WebStorm](https://www.jetbrains.com/webstorm/)
 
 +++
 ### Automation
@@ -178,6 +198,8 @@
 - Add semantic-release to your pipeline.
 - Generate automatic `CHANGELOG` file. 
 
++++
+## CODE REVIEW
 +++
 ### Code Review
 - Only review after automatic check already past (linter, tests).
@@ -194,6 +216,8 @@
   - There is a difference in experience or expertise. 
 - Always be positive in your comments.
 
++++
+## PAIR PROGRAMMING
 +++
 ### Pair Programming
 - Plan and discuss briefly before coding.
