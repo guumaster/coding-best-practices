@@ -18,6 +18,10 @@
 6. No line separation
 
 
++++?code=code/variable_naming.js&lang=javascript&title=Variable names
+@[1-2](Why? unpronounceable, no meaning)
+@[4-5](Clear meaning, pronounceble, searchable)
+
 +++?code=code/readability_bad.js&lang=javascript&title=Readability Bad
 @[1](Function name and parameters don't show meaning or intention)
 @[2](Var name not meaningful)
@@ -25,9 +29,9 @@
 
 +++?code=code/readability_good.js&lang=javascript&title=Readability Good
 
-+++?code=code/variable_naming.js&lang=javascript&title=Variable names
-@[1-2](Why? unpronounceable, no meaning)
-@[4-5](Clear meaning, pronounceble, searchable)
++++?code=code/deep_nesting_bad.js&lang=javascript&title=Deep Nesting
++++?code=code/deep_nesting_refactor.js&lang=javascript&title=Deep Nesting Refactor
+
 
 +++
 ## COMMENTS
